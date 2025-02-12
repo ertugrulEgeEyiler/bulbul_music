@@ -108,31 +108,12 @@ const Signup = () => {
         <div className="auth-input">
           <input type="text" id="tc" name="tc" value={formData.tc} onChange={handleChange} placeholder="TC Numarası" />
         </div>
-        {formData.role === 'seller' && (
-          <div className="seller-info-container">
-            <div className="auth-input">
-              <input type="text" id="sirketAdi" name="sirketAdi" value={formData.sirketAdi} onChange={handleChange} placeholder="Şirket Adı" />
-            </div>
-            <div className="auth-input">
-              <input type="text" id="vergiNumarasi" name="vergiNumarasi" value={formData.vergiNumarasi} onChange={handleChange} placeholder="Vergi Numarası" />
-            </div>
-            <div className="auth-input">
-              <input type="text" id="sirketAdresi" name="sirketAdresi" value={formData.sirketAdresi} onChange={handleChange} placeholder="Şirket Adresi" />
-            </div>
-          </div>
-        )}
         {error && <p style={{ color: 'red' }}>{error}</p>}
         <div className="form-check-inline">
           <div className="form-check">
             <input className="form-check-input" type="radio" name="role" value="customer" id="customer" checked={formData.role === 'customer'} onChange={handleRadioChange} />
             <label className="form-check-label" htmlFor="customer">
               Customer
-            </label>
-          </div>
-          <div className="form-check">
-            <input className="form-check-input" type="radio" name="role" value="seller" id="seller" checked={formData.role === 'seller'} onChange={handleRadioChange} />
-            <label className="form-check-label" htmlFor="seller">
-              Seller
             </label>
           </div>
         </div>
