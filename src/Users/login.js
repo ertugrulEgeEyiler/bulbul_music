@@ -69,7 +69,7 @@ const Login = () => {
   return (
     <div className="auth-container">
       <div className="auth-logo-container">
-        <img src={logo} alt="Logo" className="auth-logo" />
+        <Link to="/"><img src={logo} alt="Logo" className="auth-logo" /></Link>
       </div>
       <form className="auth-form" onSubmit={handleSubmit}>
         <h2>Giriş Yap</h2>
