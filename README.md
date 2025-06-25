@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Bülbül Music Web Store
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bülbül Music'in modern, kullanıcı dostu ve mobil uyumlu online mağaza uygulamasıdır. Gitarlar, amfiler ve davullar gibi ürün kategorilerini kolayca yönetebilir, ürün detaylarını görüntüleyebilir ve filtreleme yapabilirsiniz.
 
-## Available Scripts
+## Özellikler
+- Kategori bazlı ürün listeleme (Gitarlar, Amfiler, Davullar)
+- Marka ve fiyat aralığına göre filtreleme
+- Her ürün için detay sayfası
+- Responsive (mobil uyumlu) ve modern tasarım
+- Görsel bulunmayan ürünler için otomatik placeholder
+- Kolayca yeni kategori/ürün ekleme
+- GoDaddy hosting ile tam uyumlu statik build
 
-In the project directory, you can run:
+## Kurulum
 
-### `npm start`
+1. **Projeyi klonlayın:**
+   ```bash
+   git clone https://github.com/kullaniciadi/bulbul_music.git
+   cd bulbul_music
+   ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Bağımlılıkları yükleyin:**
+   ```bash
+   npm install
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Gerekli ürün JSON dosyalarını** (`public/gitarlar/`, `public/amfiler/`, `public/davullar/`) ve görsel placeholder'ı (`public/pngs/image-placeholder.svg`) kontrol edin.
 
-### `npm test`
+4. **Geliştirme ortamında çalıştırmak için:**
+   ```bash
+   npm start
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. **Prodüksiyon için build alın:**
+   ```bash
+   npm run build
+   ```
 
-### `npm run build`
+6. **Build klasörünü test etmek için:**
+   ```bash
+   npx serve -s build
+   # veya
+   npm install -g serve
+   serve -s build
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## GoDaddy'ye Yükleme
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. `build` klasörünün içeriğini GoDaddy sunucunuzun web root dizinine (veya alt dizine) yükleyin.
+2. `public/gitarlar/`, `public/amfiler/`, `public/davullar/` klasörlerindeki tüm ürün JSON dosyalarını da aynı yapıda sunucuya yükleyin.
+3. Eğer siteyi bir alt dizinde yayınlayacaksanız, `package.json` dosyasındaki `homepage` alanını örneğin `"/music"` olarak güncelleyin ve tekrar build alın.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Kategori ve Ürün Ekleme
+- Yeni bir ürün eklemek için ilgili JSON dosyasını `public/gitarlar/`, `public/amfiler/` veya `public/davullar/` klasörüne ekleyin.
+- Yeni bir kategori eklemek için benzer bir React component'i ve JSON klasörü oluşturun, ardından `Store.js` ve navigasyon bileşenine ekleyin.
 
-### `npm run eject`
+## Kullanılan Teknolojiler
+- React (Create React App)
+- React Router
+- Modern CSS (responsive tasarım)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Geliştirici Notları
+- Proje 2025 yılında güncellenmiştir.
+- Tüm görseller ve ürün verileri statik olarak sunulmaktadır.
+- Kodun tamamı GoDaddy gibi statik hostinglerde problemsiz çalışacak şekilde optimize edilmiştir.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Her türlü soru ve destek için info@bulbulmuzik.com adresine ulaşabilirsiniz.

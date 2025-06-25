@@ -1,0 +1,238 @@
+/* Store.css */
+.store-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Roboto', 'Segoe UI', sans-serif;
+}
+
+.store-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.store-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #5a3e2b;
+  margin-bottom: 0.5rem;
+}
+
+.store-header p {
+  font-size: 1.2rem;
+  color: #8b5e3b;
+  font-weight: 300;
+}
+
+.category-filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.filter-button {
+  padding: 0.75rem 1.5rem;
+  border: 1px solid #8b5e3b;
+  background-color: white;
+  color: #8b5e3b;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filter-button:hover {
+  background-color: #f9f6f2;
+}
+
+.filter-button.active {
+  background-color: #8b5e3b;
+  color: white;
+}
+
+.category-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.category-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+  background-color: white;
+}
+
+.category-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.category-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #f9f6f2;
+  margin-bottom: 1.5rem;
+}
+
+.category-icon {
+  width: 60%;
+  height: auto;
+  object-fit: contain;
+}
+
+.category-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #5a3e2b;
+}
+
+.category-card p {
+  margin-bottom: 1.5rem;
+  color: #6b4e35;
+}
+
+.view-more-btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #6b4e35;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.view-more-btn:hover {
+  background-color: #5a3e2b;
+}
+
+.featured-products {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #eaeaea;
+}
+
+.featured-products h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #5a3e2b;
+  margin-bottom: 2rem;
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.featured-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  background-color: white;
+}
+
+.featured-card:hover {
+  transform: translateY(-10px);
+}
+
+.featured-image-container {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.featured-image-container img {
+  max-width: 100%;
+  max-height: 180px;
+  object-fit: contain;
+}
+
+.featured-card h3 {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  text-align: center;
+  color: #5a3e2b;
+  height: 2.4rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.featured-price {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #8b5e3b;
+  margin-bottom: 1rem;
+}
+
+.view-product-btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #6b4e35;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.view-product-btn:hover {
+  background-color: #5a3e2b;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .store-container {
+    padding: 1rem;
+  }
+  
+  .category-cards,
+  .featured-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .store-header h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .category-cards,
+  .featured-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .filter-button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+}

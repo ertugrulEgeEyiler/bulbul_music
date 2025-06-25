@@ -1,0 +1,2 @@
+/* Importing the same styles from Gitarlar.css since we're using the same component structure */
+@import './Gitarlar.css';

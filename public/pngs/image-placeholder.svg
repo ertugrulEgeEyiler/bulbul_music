@@ -1,0 +1,8 @@
+<!-- SVG placeholder for product images -->
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f8f8f8"/>
+  <path d="M150,50 L225,175 L75,175 Z" fill="#e0e0e0"/>
+  <circle cx="200" cy="100" r="25" fill="#e0e0e0"/>
+  <text x="150" y="210" font-family="Arial" font-size="18" text-anchor="middle" fill="#888">Görsel Bulunamadı</text>
+  <text x="150" y="235" font-family="Arial" font-size="14" text-anchor="middle" fill="#888">Bulbul Music</text>
+</svg>

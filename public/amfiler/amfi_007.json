@@ -1,0 +1,15 @@
+{
+  "urun_adi": "Ibanez T30II-U Akustik Gitar Amfisi",
+  "marka": "IBANEZ",
+  "kategori": "Akustik Enstrüman Amfileri",
+  "fiyat": "13100",
+  "kur": "TL",
+  "stok": "5",
+  "resimler": [
+    "https://www.zuhalmuzik.com/images/product/173305T30II-U_1.jpg",
+    "https://www.zuhalmuzik.com/images/product/173305T30II-U_2.jpg",
+    "https://www.zuhalmuzik.com/images/product/173305T30II-U_3.jpg"
+  ],
+  "aciklama_html": "<style type=\"text/css\">table {\n  font-family: arial, sans-serif;\n  border-collapse: collapse;\n  width: 100%;\n}\n\ntd, th {\n  border: 1px solid #dddddd;\n  text-align: left;\n  padding: 8px;\n}\n\ntr:nth-child(even) {\n  background-color: #dddddd;\n}\n</style>\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th><span style=\"font-size:14px;\">TEKNİK &Ouml;ZELLİKLER</span></th>\n\t\t\t<th>&nbsp;</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span style=\"font-size:14px;\">&Ccedil;ıkış</span></td>\n\t\t\t<td><span style=\"font-size:14px;\">30W@8&Omega;</span></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span style=\"font-size:14px;\">Hoparl&ouml;r</span></td>\n\t\t\t<td><span style=\"font-size:14px;\">8&quot; Coaxial Speaker (with Tweeter)</span></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span style=\"font-size:14px;\">Kontroller</span></td>\n\t\t\t<td><span style=\"font-size:14px;\">Instrument Channel: Bass, Treble, Volume<br />\n\t\t\tMicrophone Channel: Bass, Treble, Volume FXs: Instrument Chorus Speed with On/Off Switch, Instrument Reverb and Microphone Reverb with On/Off Switch Master: Volume</span></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span style=\"font-size:14px;\">I/O&#39;s</span></td>\n\t\t\t<td><span style=\"font-size:14px;\">1/4&quot; Instrument Input, XLR Microphone Input, Aux Input, Line Out</span></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span style=\"font-size:14px;\">Kabin</span></td>\n\t\t\t<td><span style=\"font-size:14px;\">Closed Back</span></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span style=\"font-size:14px;\">Boyutlar</span></td>\n\t\t\t<td><span style=\"font-size:14px;\">363mm(W) x 263mm(D) x 273mm(H)</span></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span style=\"font-size:14px;\">Ağırlık</span></td>\n\t\t\t<td><span style=\"font-size:14px;\">5.95 kg</span></td>\n\t\t</tr>\n\t\t<tr>\n\t\t</tr>\n\t</tbody>\n</table>",
+  "detay_url": "https://www.zuhalmuzik.com/ibanez-t30ii-u-combo-akustik-gitar-amfisi-78458"
+}

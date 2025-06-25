@@ -1,0 +1,15 @@
+{
+  "urun_adi": "BEHRINGER DH100 Profesyonel Davulcu Kulaklığı",
+  "marka": "BEHRINGER",
+  "kategori": "DAVUL ve PERKÜSYON",
+  "fiyat": "2410",
+  "kur": "TL",
+  "stok": "11",
+  "resimler": [
+    "https://www.zuhalmuzik.com/images/product/160916DH100_1.jpg",
+    "https://www.zuhalmuzik.com/images/product/160916DH100_2.jpg",
+    "https://www.zuhalmuzik.com/images/product/160916DH100_3.jpg"
+  ],
+  "aciklama_html": "<style type=\"text/css\">table {\n  font-family: arial, sans-serif;\n  border-collapse: collapse;\n  width: 100%;\n}\n\ntd, th {\n  border: 1px solid #dddddd;\n  text-align: left;\n  padding: 8px;\n}\n\ntr:nth-child(even) {\n  background-color: #dddddd;\n}\n</style>\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th><span style=\"font-size:14px;\">TEKNİK &Ouml;ZELLİKLER</span></th>\n\t\t\t<th>&nbsp;</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span style=\"font-size:14px;\">S&uuml;r&uuml;c&uuml; &Uuml;nitesi</span></td>\n\t\t\t<td><span style=\"font-size:14px;\">40 mm</span></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span style=\"font-size:14px;\">Empedans</span></td>\n\t\t\t<td><span style=\"font-size:14px;\">32 Ohm</span></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span style=\"font-size:14px;\">Hassasiyet</span></td>\n\t\t\t<td><span style=\"font-size:14px;\">97 dB (&plusmn;3 dB)</span></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span style=\"font-size:14px;\">Frekans Tepkisi</span></td>\n\t\t\t<td><span style=\"font-size:14px;\">10 Hz - 22 kHz</span></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span style=\"font-size:14px;\">Jack Ucu</span></td>\n\t\t\t<td><span style=\"font-size:14px;\">3,5 mm stereo, 6,3 mm altın kaplama adapt&ouml;r</span></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span style=\"font-size:14px;\">Kablo</span></td>\n\t\t\t<td><span style=\"font-size:14px;\">3 m, spiral kablo</span></td>\n\t\t</tr>\n\t\t<tr>\n\t\t</tr>\n\t</tbody>\n</table>",
+  "detay_url": "https://www.zuhalmuzik.com/behringer-dh100-profesyonel-davulcu-kulakligi-dh100"
+}
